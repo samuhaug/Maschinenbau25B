@@ -1,0 +1,8 @@
+print("Willkommen beim KM Rechner!")
+meter = input("Gib deine Meter ein")
+message = f"Deine Eingabe waren: {meter} m"
+print(message)
+km = float(meter)/1000
+print(f"Das sind {km} km")
+
+
