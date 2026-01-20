@@ -1,0 +1,4 @@
+drehzahl = int(input("Geben Sie die Drehzahl ein (u/min): "))
+if drehzahl > 3000:
+    print("⚠️ WARNUNG: Hohe Drehzahl! Werkzeugverschleiß prüfen.")
+

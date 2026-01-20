@@ -1,0 +1,6 @@
+druck = float(input("Hydraulikdruck eingeben (in bar): "))
+pressure = druck * 14.5038
+if druck < 50:
+    print(f"❌ FEHLER: Druck zu niedrig ({druck} bar). Pumpe prüfen!")
+else:
+    print(f"✅ Druck OK ({druck} bar/{pressure} psi). System betriebsbereit.")

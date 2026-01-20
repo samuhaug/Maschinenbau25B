@@ -1,0 +1,8 @@
+kraft = float(Input("Kraft in Newton angeben:"))
+fläche = float(input("Fläche in mm² angeben:"))
+sigma = kraft/fläche 
+print(f"Die Spannung beträgt {sigma} MPa")
+if sigma < 100: 
+    print("Niedrigspannung, Sicher, weit unter Streckgrenze")
+elif 100 <= sigma < 235:
+    print("Betriebsspannung	Normal, im zulässigen Bereich")
