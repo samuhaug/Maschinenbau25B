@@ -1,0 +1,12 @@
+magazin = [101, 205, 310, 405, 210, 115, 320]
+werkzeug_ID = int(input("Geben sie Werkzeug ID ein: "))
+for i, werkzeug in enumerate(magazin, start=1):
+    if werkzeug_ID == werkzeug: 
+        print(f"Werkzeug mit ID {werkzeug_ID} gefunden an Position {i}.")
+        break
+    else: print(f"Werkzeug mit ID {werkzeug_ID} nicht gefunden.")
+
+
+#for i, werkzeug_id in enumerate(magazin, start=1): für Position und ID
+# {
+# }
